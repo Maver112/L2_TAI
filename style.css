@@ -1,0 +1,22 @@
+body
+{
+    background-color:antiquewhite; 
+}
+form
+{
+   padding-left: 10%;
+    margin-left: 10%;   
+}
+#imie
+{
+    margin-left: 37px; 
+}
+#email
+{
+    margin-left: 23px; 
+}
+.img {
+	width: 100px;
+	height: auto;
+}
+

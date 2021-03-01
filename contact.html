@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona Wiktor Ziaja</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <form>
+    <div>
+        <legend>Uzupełnij dane</legend>
+        <label>Imię: <input type="text" name="imie" placeholder="podaj imie" id="imie"></label><br>
+        <label>Nazwisko: <input type="text" name="nazwisko" placeholder="podaj nazwisko" ></label><br>
+        <label>E-mail: <input type="text" name="email" placeholder="podaj email" id="email"></label><br>
+        <div><br>
+        <label>Płeć</label><br>
+            <label><input type="radio" value="1" name="Mężczyzna"</label>Mężczyzna </label>
+                <label><input type="radio" value="1" name="Kobieta"</label>Kobieta </label>
+                
+        </div><br>
+        <div>
+            <label>Opis</label><br>
+            <textarea></textarea>
+        
+        </div>
+        <div><br>
+            <label>Wiek: <br><input type="number" value="18" > </label>
+        </div><br>
+        <div>
+            <label>Stan cywilny</label><br>
+            <select name="stan cywilny">
+                <option value="Panna/Kawaler">panna/kawaler</option>
+                <option value="żonaty/zamężna">żonaty/Zamężna</option>
+                <option value="rozwiedziona/rozwiedziony">Rozwiedziona/Rozwiedziony</option>
+            
+            </select>
+        </div>
+        <div>
+            <button type="reset">Wyczyść</button>
+            <button type="submit">Wyślij</button>
+        </div>
+    </form>
+</body>
+</html>
