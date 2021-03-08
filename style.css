@@ -19,4 +19,8 @@ form
 	width: 100px;
 	height: auto;
 }
-
+footer
+{
+    text-align: center;
+    padding-top: 5%;
+}
